@@ -1,0 +1,5 @@
+str = "stars"
+
+for i in str:
+ print(i + " is so lovely")
+
