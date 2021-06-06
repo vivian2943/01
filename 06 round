@@ -1,0 +1,14 @@
+
+'''
+嘗試看書來做
+'''
+num=11
+print(num)
+num1=bin(num) #二進位
+print(num1)
+
+'''
+嘗試用round最接近數值及小數點位數
+'''
+num=0.24563+0.593443
+print(round(num,4))
