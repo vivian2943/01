@@ -1,0 +1,6 @@
+while True:
+    capi = input("輸入英文字變大寫:")
+    if capi == "離開": #會一直跑出來直到打出離開，課本P81
+        break
+    print(capi.capitalize())
+ 
