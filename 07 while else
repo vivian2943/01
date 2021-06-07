@@ -1,0 +1,10 @@
+numbers= [1, 3, 5]
+position = 0 
+while position  < len(numbers): # 搞不懂這個len(numbers)的意思，是指一共有三個數字?還是會依順序一個一個比對與position的大小? 因為將numbers數列換成1, 3, 6後印出來會是6
+    number = numbers[position] 
+    if number % 2 ==0:
+            print('發現偶數',number)
+            break
+    position += 1
+else: #break not caal
+    print('沒有發現偶數')
