@@ -1,0 +1,10 @@
+drinks = {
+    'martini': {'vodka', 'vermouth'},
+    'black russian': {'vodka', 'kahlua'},
+    'white russian': {'cream', 'vodka', 'kahlua'},
+    'manhattan': {'rye', 'vermouth', 'bitters'},
+    'screwdriver': {'orange juice', 'vodka'}
+    }
+for ff, gg in drinks.items(): #ff, gg對應Key 跟 value的值
+    if 'kahlua' in gg:
+        print(gg)
