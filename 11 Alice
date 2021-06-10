@@ -1,0 +1,16 @@
+'''
+還不知道怎麼中斷程式
+'''
+
+
+name = input('請問你的名字是?')
+age = int(input('請問你幾歲?'))
+if name == 'Alice': #填Alice不管年紀幾歲都會執行這個
+    print('公主，抱歉屬下來遲')
+        
+elif age < 12:
+    print( name + ',請問可以給我一杯羊奶嗎?')
+elif age >= 12:
+    print(name + ',請問你有看到一位翡翠色眼睛的紅髮少女嗎?')
+elif age > 150: #會先執行上一個子句
+    print('是你殺了Alice公主!')
