@@ -1,0 +1,13 @@
+'''
+自動化P28
+互動性高
+'''
+print('你好')
+print('你的名字是?')
+name = input()
+print('你好，'+name)
+print('你的名字的字數是:')
+print(len(name))
+print('你幾歲啦?')
+age = input()
+print('再過一年你會變成'+str(int(age)+1)+'歲')
