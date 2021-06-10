@@ -1,0 +1,5 @@
+name = '' #沒打這行會顯示下一行的name沒被defined
+while name != 'vivi':
+    print('請輸入vivi:')
+    name = input()
+print('已認證')
