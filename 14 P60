@@ -1,0 +1,9 @@
+name = ''
+while not name:
+    print('請輸入你的名字:')
+    name = input()
+print('請輸入用餐人數:')
+guestn = int(input()) 
+if guestn: #這塊IF我不清楚是不是等級跟while相同?
+    print('請確認空間符合人數需求')
+print('完成')
