@@ -1,0 +1,12 @@
+while True:
+    print('請說明你的身分:')
+    name = input()
+    if name != 'vivi':
+        print('非相關人士，無法識別')
+        continue
+    print('請輸入密碼(提示:四位數字):')
+    password = input()
+    if password == '1234':
+        print('密碼正確')
+        break
+print('通過認證')
